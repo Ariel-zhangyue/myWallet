@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="84a5e720e441032fc979314a4539f3d40079801b">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.ashokvarma.android-bottom-navigation-bar-1.3.0_10633953bebb33f555811d07080edb815a8801cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="76a80bcddedb0b7f3b1738ea3f12010dadcc7e63">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f5c5a7cdd7f5cb975b300a38a482f1f5dadd5c2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_471e1ae0e4def5292a8838721f368971f12c54d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_8bf476124c439f83eccfaf3515c97f2320e0820e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_a6a2df96d6b328df1c7e342739ba2bd57b1fccf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_83b6b8556ff02c7c29c9253d9f02c91fd4e2c475/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_b96465ea477269c105362f78bba8c2971cbece96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_040b683dd3e837e218612c5c6bd35579e98c1db9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="31662d6a3f65ed40f0b7281887b0085545c20907">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4e676f73ea69c82f78a4f59b5aa732acb4a980ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_83dd09cf954fe05492c88bcb3d8388d56b018c3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_8d2a65e0b45f73cc5d5b9fa2e6347d274481f743/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_1c8ae9256d8cbe2687843fb6f59c05ac7d37ed52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_2a26ad9e467fb45bcf754fdd29709f50b61ed90a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_ac019face3b7d57974ce60f915358d45f8d7d53d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/libs/commons-lang3-3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6c6c702c89bfff3cd9e80b04d668c5e190d588c6">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang3-3.5_26bbd5fc957256ffd8e32ef5aa4d00f88cca9a63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_22012a14cf30e4189b6a59095d5f39d085e45ffe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/libs/hellocharts-library-1.5.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="700944cb3a8ce4fe543cfac1a9146a11cbf702dc">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/2/hellocharts-library-1.5.8_bc33fc20d629ac60fe9b4d7dddcd868e151301f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_5728fd6958a3f1e3dbb93745518c07eb0d7929f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_6cb4d03b80b394255c9445028398bea1ec3fca23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_7649eb1b37a8ff7f382708e1065736be103f8311/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/libs/commons-collections4-4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a4cf4688fe1c7e3a63aa636cc96d013af537768e">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-collections4-4.1_251b45cf0bac6fe353924ad64157716a233486bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_4e728a76244e5f20320df2813aab5fe2794baf75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/yuezhang/Desktop/my_wallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_fec021f4bd3d7dbc701b7187e16d7db5ae578da2/classes.dex" />
+    </item>
+
+</items>

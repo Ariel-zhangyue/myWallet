@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.wjq.dk.zy.mywallet.fragment.BudgetFragment"
+    android:id="@+id/fragment_budget">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow"
+        android:layout_below="@+id/home_budget_bar"
+        android:id="@+id/imageView" />
+
+
+    <ExpandableListView
+        android:id="@+id/budget_listview"
+        android:cacheColorHint="@color/blackR"
+        android:dividerHeight="1dp"
+        android:childDivider="@color/black_de"
+        android:divider="@color/fontgrey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>

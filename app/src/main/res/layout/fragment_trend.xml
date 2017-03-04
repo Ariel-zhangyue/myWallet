@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/dateSearchField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/weekChartQuery"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            fancy:fb_defaultColor="@color/orange"
+            fancy:fb_focusColor="#f0d17e"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_borderColor="#7f888888"
+            fancy:fb_text="Week"
+            fancy:fb_textColor="#666666"
+            fancy:fb_textSize="17dp"
+            android:layout_toStartOf="@+id/monthChartQuery">
+        </mehdi.sakout.fancybuttons.FancyButton>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/monthChartQuery"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            fancy:fb_defaultColor="#ffc1f0"
+            fancy:fb_focusColor="#e9b9c5"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_borderColor="#7f888888"
+            fancy:fb_text="Month"
+            fancy:fb_textColor="#555555"
+            fancy:fb_textSize="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </mehdi.sakout.fancybuttons.FancyButton>
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/yearChartQuery"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            fancy:fb_defaultColor="#D1EEEE"
+            fancy:fb_focusColor="#C0E3EA"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_borderColor="#7f888888"
+            fancy:fb_text="Year"
+            fancy:fb_textColor="#555555"
+            fancy:fb_textSize="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/monthChartQuery">
+        </mehdi.sakout.fancybuttons.FancyButton>
+
+        <!--<Button-->
+            <!--android:id="@+id/weekChartQuery"-->
+            <!--android:layout_width="122dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_toStartOf="@+id/monthChartQuery"-->
+            <!--android:text="Week" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/monthChartQuery"-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="Month" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/yearChartQuery"-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_toEndOf="@+id/monthChartQuery"-->
+            <!--android:text="Year" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/chartViewField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/pieChartField"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/pieChartForExpense"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/comboLineColumnChartField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+            <lecho.lib.hellocharts.view.ComboLineColumnChartView
+                android:id="@+id/comboLineColumnChart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/previewColumnChartField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="20dp">
+
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/columnChartForPreview"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp" />
+
+            <lecho.lib.hellocharts.view.PreviewColumnChartView
+                android:id="@+id/previewColumnChart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/columnLineDependencyField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true">
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/lineChart"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp" />
+
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/columnChartForDependency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

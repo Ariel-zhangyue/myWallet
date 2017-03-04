@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Category"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <Button
+            android:background="@drawable/tab_selector"
+            android:id="@+id/manage_tab_eating"
+            android:text="Eating"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+        <Button
+            android:id="@+id/manage_tab_trans"
+            android:background="@drawable/tab_selector"
+            android:text="Transport"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/manage_tab_clothes"
+            android:background="@drawable/tab_selector"
+            android:text="Clothes"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/manage_tab_living"
+            android:layout_weight="0.25"
+            android:background="@drawable/tab_selector"
+            android:text="Living"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+    <GridView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/manage_gridView"></GridView>
+
+
+
+
+</LinearLayout>

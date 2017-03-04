@@ -1,1 +1,1 @@
-# myWallet
+My wallet is an application to record your expenses.

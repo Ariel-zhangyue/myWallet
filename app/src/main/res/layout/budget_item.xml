@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/_white"
+    android:id="@+id/budget_item_layout"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:text="1000/3000"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proportion"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="6dp"
+             />
+
+        <com.wjq.dk.zy.mywallet.customView.NumberProgressBar
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:id="@+id/budget_numberprogressBar"
+            custom:progress_unreached_color="@color/budegt_green"
+            custom:progress_reached_color="@color/expense_red"
+            custom:progress_text_color="@color/expense_red"
+            custom:progress_text_size="15sp"
+            custom:progress_unreached_bar_height="3dp"
+            custom:progress_reached_bar_height="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

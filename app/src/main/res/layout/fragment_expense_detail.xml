@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/_white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/showed_subcategory_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Lunch"
+            android:textSize="40dp"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dollar_symbol"
+            android:layout_alignBottom="@+id/showed_subcategory_detail"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="120dp"
+            android:id="@+id/imageView2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:text=""
+            android:textSize="40dp"
+            android:gravity="right"
+            android:ems="10"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_marginStart="26dp"
+            android:id="@+id/editText_amount_detail" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            app:srcCompat="@drawable/shadow"
+            android:layout_below="@+id/editText_amount"
+            android:id="@+id/imageView3" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/tab_selector"
+            android:id="@+id/tab_eating_detail"
+            android:text="Eating"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+        <Button
+            android:id="@+id/tab_trans_detail"
+            android:background="@drawable/tab_selector"
+            android:text="Transport"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/tab_clothes_detail"
+            android:background="@drawable/tab_selector"
+            android:text="Clothes"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/tab_living_detail"
+            android:layout_weight="0.25"
+            android:background="@drawable/tab_selector"
+            android:text="Living"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+    <GridView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/gridView_detail"></GridView>
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/detail_back"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            fancy:fb_defaultColor="@color/orange"
+            fancy:fb_focusColor="#f0d17e"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_borderColor="#7f888888"
+            fancy:fb_text="Back"
+            fancy:fb_textColor="#666666"
+            fancy:fb_textSize="17dp">
+        </mehdi.sakout.fancybuttons.FancyButton>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/detail_modify"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            fancy:fb_defaultColor="#ffc1f0"
+            fancy:fb_focusColor="#e9b9c5"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_borderColor="#7f888888"
+            fancy:fb_text="Modify"
+            fancy:fb_textColor="#555555"
+            fancy:fb_textSize="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+        </mehdi.sakout.fancybuttons.FancyButton>
+    </RelativeLayout>
+
+</LinearLayout>
